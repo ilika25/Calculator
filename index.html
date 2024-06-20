@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style_1.css">
+</head>
+<body>
+    <div class="main">
+        <div class="display dis">
+            <h1 class="show"></h1>
+        </div>
+        <div class="first dis">
+            <div class="f1 comp"><button onclick="reset()">AC</button></div>
+            <div class="f2 comp"><button>DEL</button></div>
+            <div class="f3 comp"><button onclick="addop('%')">%</button></div>
+            <div class="f4 comp"><button onclick="addop('/')">/</button></div>
+        </div>
+        <div class="second dis">
+            <div class="s1 comp"><button onclick="addnum(7)">7</button></div>
+            <div class="s2 comp"><button onclick="addnum(8)">8</button></div>
+            <div class="s3 comp"><button onclick="addnum(9)">9</button></div>
+            <div class="s4 comp"><button onclick="addop('*')">*</button></div>
+        </div>
+        <div class="third dis">
+            <div class="t1 comp"><button onclick="addnum(4)">4</button></div>
+            <div class="t2 comp"><button onclick="addnum(5)">5</button></div>
+            <div class="t3 comp"><button onclick="addnum(6)">6</button></div>
+            <div class="t4 comp"><button onclick="addop('-')">-</button></div>
+        </div>
+        <div class="fifth dis">
+            <div class="comp"><button onclick="addnum(1)">1</button></div>
+            <div class="comp"><button onclick="addnum(2)">2</button></div>
+            <div class="comp"><button onclick="addnum(3)">3</button></div>
+            <div class="comp"><button onclick="addop('+')">+</button></div>
+        </div>
+        <div class="fourth dis">
+            <div class="fo1 comp"><button onclick="addnum(0)">0</button></div>
+            <div class="fo2 comp"><button onclick="addnum(1)">.</button></div>
+            <div class="fo3 comp"><button onclick="calculate()">=</button></div>
+        </div>
+    </div>
+    <script src="app_1.js"></script>
+</body>
+</html>
