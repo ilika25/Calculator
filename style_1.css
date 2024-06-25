@@ -12,9 +12,11 @@ body{
 .main{
     height: 70vh;
     width: 25%;
-    border: 2px solid black;
+    border: 5px double rgb(250, 214, 54);
     display: flex;
     flex-direction: column;
+    color: white;
+    background-color: black
 }
 .dis{
     flex: 1.4;
@@ -26,13 +28,18 @@ body{
 .comp{
     height: 60%;
     flex:1;
-    border: 2px solid black;
+    border: 2px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.7em;
-    border-radius: 10%;
+    border-radius: 30%;
     margin: 1.1em 0.2em 0em 0.2em;
+    background-color: rgb(28, 27, 27);
+}
+.fo1{
+    flex:2;
+    border-radius: 15%;
 }
 .comp button{
     height:100%;
@@ -46,4 +53,13 @@ body{
 .display h1{
     position: relative;
     left: 32%;
+}
+.f1,.f2,.f3{
+    background-color: grey;
+}
+.f4,.s4,.t4,.ff4,.fo3{
+    background-color: rgba(255, 166, 0, 0.898);
+}
+.main button:active{
+    transform: scale(1.2);
 }
